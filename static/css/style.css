@@ -1,0 +1,252 @@
+
+.main_title {
+    text-align: center;
+}
+.main_title td {
+    font-size: 15px;
+}
+.main_title p{
+    text-align: left;
+    white-space: normal;
+    margin-left: 10px;
+    word-spacing: 5px;
+}
+.main_a a{
+    text-decoration:none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.leftcol {
+    width: 110px;
+    vertical-align: top;
+}
+.main_article h2 {
+    text-align: center;
+}
+
+.main_article {
+    text-align: center;
+}
+.main_article td {
+    font-size: 15px;
+}
+.main_article p{
+    text-align: left;
+    white-space: normal;
+    margin-left: 10px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.login_section {
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 590px;
+    margin-right: 190px;
+    margin-bottom: 105px;
+    width: 420px;
+    height: 340px;
+    border: 1px  solid black;
+    border-radius: 10px;
+}
+.h2_login{
+    margin: 0;
+    border-top: 20px;
+    border-bottom: 18px;
+    border-radius: 10px 10px 1px 1px;
+}
+.login_name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 250px;
+
+}
+.login_password{
+    height: 35px;   
+    width: 240px;
+}
+.login_ip{
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+.login_button{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+}
+/**/
+.register_section {
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 590px;
+    margin-right: 190px;
+    margin-bottom: 105px;
+    width: 420px;
+    height: 340px;
+    border: 1px  solid black;
+    border-radius: 10px;
+}
+.register_h2{
+    margin: 0;
+    border-top: 20px;
+    border-bottom: 18px;
+    border-radius: 10px 10px 1px 1px;
+}
+.register_name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 250px;
+
+}
+.regisret_pass{
+    height: 35px;
+    width: 240px;
+}
+
+.register_button{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+}
+    * {margin:0; padding:0;}
+
+     body {
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+     }
+     .login_section{
+       display: inline-block;
+
+     }
+    .admin_form{
+        display: block;
+        float: left;
+        margin: 10px;
+        height: 420px;
+        width: 400px;
+        padding-left: 10px;
+        border: 1px solid black;
+    }
+    .admin_button{
+              overflow: hidden;
+
+    }
+    .delete {
+        float: left;
+        white-space: nowrap;
+        margin-top: 10px;
+        margin-right: 50px;
+        height: 35px;
+        width: 50px;
+        text-align: center;
+    }
+    .delete a {
+           text-decoration: none;
+    }
+    .update {
+        float: left;
+        margin-top: 10px;
+        height: 35px;
+        width: 50px;
+        text-align: center;
+    }
+    .update a {
+        float :left;
+        text-decoration: none;
+    }
+    .form_global{
+                   position: fixed;
+        top: 10%;
+        left: 20%;
+    }
+    .title_form{
+        margin-bottom: 10px;
+        height: 35px;
+        width: 250px;
+    }
+    .url_form{
+        margin-bottom: 10px;
+         height: 35px;
+        width: 250px;
+    }
+
+    .descr_min_form{
+    margin-bottom: 10px;
+        height: 75px;
+        width: 450px;
+    }
+    .cid_form{
+        margin-bottom: 35px;
+    }
+    .image_form img{
+        margin-bottom: 15px;
+        width: 250px;
+        height: 250px;
+    }
+    .button_form{
+        margin-top: 10px;
+        padding: 15px 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .descr_form{
+        margin-bottom: 10px;
+        height: 250px;
+        width: 800px;
+    }
+     .menu-wrap {
+	background-color:#53bd84;
+	height:50px;
+	line-height:50px;
+	position:relative;
+	width:100%;
+	margin:auto;
+     }
+     .menu-wrap ul {
+	list-style:none;
+     }
+
+     .menu-wrap ul li a {
+ 	float:left;
+	width:150px;
+	display:block;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	text-transform:uppercase;
+     }
+
+     .menu-wrap ul li a:hover {
+	background-color:#666;
+	display:block;
+     }
+
+     .menu-wrap ul li:hover ul {
+	display:block;
+     }
+
+     .menu-wrap ul ul {
+	display:none;
+	list-style:none;
+	position:absolute;
+	background-color:#53bd84;
+	left:300px;
+	top:50px;
+	width:190px;
+     }
+
+     .menu-wrap ul ul li a {
+	float:none;
+	display:block;
+	padding-left:30px;
+	text-align:left;
+	width:160px;
+     }
+
+     .menu-wrap ul ul li a:hover {
+	color:#fff;
+      }

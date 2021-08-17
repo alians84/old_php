@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /phpstage_project/
+ErrorDocument 404 /404
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /phpstage_project/index.php?route=$1 [L]
